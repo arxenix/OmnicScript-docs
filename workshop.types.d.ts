@@ -1482,7 +1482,7 @@ export declare var left: WSDirection;
 export declare function localVectorOf(worldVector: WSPosition, relativePlayer: WSPlayer, transformation: WSTransformation): WSPosition;
 
 /**
- * The current round of the match, counting up from i
+ * The current round of the match, counting up from 1
  */
 export declare var matchRound: number;
 
@@ -1593,7 +1593,7 @@ export declare function numberOfPlayers(team: WSTeam): number;
 export declare function numberOfPlayersOnObjective(team: WSTeam): number;
 
 /**
- * The control point, payload checkpoint, or payload destination currently active (either o, 1 , or 2). Valid in assault, assault/escort, escort, and control.
+ * The control point, payload checkpoint, or payload destination currently active (either 0, 1, or 2). Valid in assault, assault/escort, escort, and control.
  */
 export declare var objectiveIndex: number;
 
