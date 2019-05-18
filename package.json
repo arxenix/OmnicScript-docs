@@ -1,0 +1,25 @@
+{
+  "name": "owwsscriptdocs",
+  "version": "1.0.0",
+  "description": "TypeScript Documentation for OWWSScript",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "typedoc --name \"OWWS Script Documentation\" --readme ./README.md --includeDeclarations --excludeExternals --out ./docs ./workshop.types.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arxenix/OWWSScriptDocs.git"
+  },
+  "author": "arxenix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arxenix/OWWSScriptDocs/issues"
+  },
+  "homepage": "https://github.com/arxenix/OWWSScriptDocs#readme",
+  "devDependencies": {
+    "typedoc": "^0.14.2"
+  }
+}
